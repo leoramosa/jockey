@@ -1250,6 +1250,11 @@ section {
         display: none;
     }
 }
+@media screen and (max-width: 576px) {
+    .logo-presnet{
+        padding: 0 25px;
+    }
+}
 
 /*---------------*/
 
