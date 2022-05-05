@@ -1649,4 +1649,7 @@ svg:hover{
     .esconder {
         display: none;
     }
+    #headerl{
+        margin-top: 35px;
+    }
  }
