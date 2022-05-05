@@ -27,7 +27,7 @@ body{
     align-items: center;
     flex-direction: column;
     z-index: 1;
-    background: url('../img/fondo_nuevo.jpg') center center green no-repeat;
+    background: url('../img/fondo_nuevo.jpg') center center #005927 no-repeat;
     background-size: cover;
     transition: 1s;
 }
