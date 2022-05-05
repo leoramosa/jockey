@@ -6,7 +6,28 @@ body{
     background: url('../img/fondo-2.jpg') center center white no-repeat;
     background-size: cover;
  }
+ .c_comprar {
+    color: #fff;
+    padding-right: 58px;
+}
 
+.cabecera {
+    background: #000;
+    padding: 30px 20px;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    top: 0;
+}
+
+.c_comprar:hover {
+    color: #ff8100;
+    text-decoration: underline;
+}
+
+.landing_jockey .container{
+    max-width: 1418px;
+}
 /*  *,
  *::after,
  *::before{
@@ -26,7 +47,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    z-index: 1;
+    z-index: 2;
     background: url('../img/fondo_nuevo.jpg') center center #005927 no-repeat;
     background-size: cover;
     transition: 1s;
@@ -197,7 +218,7 @@ height: 90px;
     padding-top: 80px;
 }
 
-#header{
+#headerl{
     justify-content: center;
     display: flex;
     align-items: center;
@@ -206,6 +227,7 @@ height: 90px;
     position: relative;
     padding-top: 0;
     height: 700px;
+    margin-top: 118px;
 }
 
 .header-logo img{

@@ -59,7 +59,7 @@
 
 </head>
 
-<body>
+<body class="landing_jockey">
     <div class="introt">
         <img src="recursos/img/logo-jockey.png " class="img-fluid logo-presnet" alt="">
         <h1 id="logott" class="logot">
@@ -76,40 +76,42 @@
         </h1>
     </div>
     <!-- Inicio del nav -->
-    <nav  class="navbar-expand-lg navbar-dark bg-dark cabecera_fija">
-        <div class="container">
-                <div class="row">
-
-                    <div class="events col-6 col-lg-6 col-md-6">
-                            <a class="navbar-brand p-0 m-0" href="https://teleticket.com.pe/">
-                                <picture>
-                                    <source srcset="https://cdn.teleticket.com.pe/especiales/mama/images/logo01-small.svg" media="(max-width: 767px)">
-                                    <source srcset="https://cdn.teleticket.com.pe/especiales/mama/images/logo01-medium.svg" media="(max-width: 1024px)">
-                                    <source srcset="https://cdn.teleticket.com.pe/especiales/mama/images/logo01.svg">
-                                    <img class="img-fluid align-top w-100" src="https://cdn.teleticket.com.pe/especiales/mama/images/logo01.svg" alt="teleticket.com.pe">
-                                </picture>
-                            </a>
-                    </div>
-                    <!--1 smiley-->
-    
-                    <div class="events col-6 col-lg-6 col-md-6 text-right">
-                            <ul class="nav social-networks">
-                                    <li class="ml-md-0 mb-15">
-                                        <a href="https://www.instagram.com/teleticket.oficial/" class="opacity-on-hover" target="_blank"><img src="https://cdn.teleticket.com.pe/especiales/mama/images/instagram-icon.svg" alt="image description"></a>
-                                    </li>
-                                    <li class="ml-md-0 mb-15">
-                                        <a href="https://vm.tiktok.com/ZMJ71narM/" class="opacity-on-hover" target="_blank"><img src="https://cdn.teleticket.com.pe/especiales/mama/images/tiktok-icon.png" alt="image description"></a>
-                                    </li>
-                                    <li class="mx-md-0 mb-15">
-                                        <a href="https://www.facebook.com/Teleticket/" class="opacity-on-hover" target="_blank"><img src="https://cdn.teleticket.com.pe/especiales/mama/images/facebook-icon.svg" alt="image description"></a>
-                                    </li>
-                                </ul>
-                     </div>
-                        <!--2 transito-->
-                </div>
-            
+    <nav id="headern" class="headern cabecera">
+        <div class="container .container-joc ">
+          <nav class="row align-items-center">
+            <div class="col-6 col-md-6">
+              <a class="p-0 m-0" href="https://teleticket.com.pe/">
+                <img class="img-fluid" src="https://cdn.teleticket.com.pe/images/logo-teleticket.png"
+                  alt="teleticket.com.pe">
+              </a>
+            </div>
+  
+            <div class="col-6 col-md-6 text-right">
+              <a href="#" data-toggle="modal" data-target="#como_comprar" class="c_comprar esconder">
+                <span class="button-text">¿Cómo comprar en la web?</span>
+              </a>
+              <ul class="nav social-networks">
+                <li class="ml-md-0 mb-15">
+                  <a href="https://www.instagram.com/teleticket.oficial/" class="opacity-on-hover" target="_blank"><img
+                      src="https://cdn.teleticket.com.pe/especiales/snacks/img/instagram-icon.svg"
+                      alt="image description"></a>
+                </li>
+                <li class="ml-md-0 mb-15">
+                  <a href="https://vm.tiktok.com/ZMJ71narM/" class="opacity-on-hover" target="_blank"><img
+                      src="https://cdn.teleticket.com.pe/especiales/snacks/img/tiktok-icon.png"
+                      alt="image description"></a>
+                </li>
+                <li class="mx-md-0 mb-15">
+                  <a href="https://www.facebook.com/Teleticket/" class="opacity-on-hover" target="_blank"><img
+                      src="https://cdn.teleticket.com.pe/especiales/snacks/img/facebook-icon.svg"
+                      alt="image description"></a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+  
         </div>
-    </nav>
+      </nav>
     <!-- /fin del nav -->
 
 
@@ -124,7 +126,7 @@
         <!-- /Main -->
         <!-- /fin de header banner -->
 
-        <header id="header">
+        <header id="headerl">
                 <div class="header-logo">
                     <img src="recursos/img/header-logo-jockey.png" class="img-fluid"> 
                 </div>
